@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # MSSQL Connection
-mssql_conn = pymssql.connect(server='DESKTOP-R25PRPH', user='sqlread', password='sqlread', database='DB_TEST')
+mssql_conn = pymssql.connect(server='SQLSERVER', user='sqlread', password='sqlread', database='DB_TEST')
 mssql_cursor = mssql_conn.cursor()
 
 # MongoDB Connection
