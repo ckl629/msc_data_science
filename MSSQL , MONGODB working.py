@@ -120,3 +120,11 @@ if __name__ == "__main__":
     results_df = run_benchmarks()
     print(results_df)
     visualize_results(results_df)
+
+# Enable to run in loop 10 times.
+#if __name__ == "__main__":
+ #   for i in range(10):
+  #      print(f"Run {i+1}/10")
+   #     results_df = run_benchmarks()
+    #    print(results_df)
+     #   visualize_results(results_df)
